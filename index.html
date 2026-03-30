@@ -1563,7 +1563,9 @@
       grid.innerHTML = data.map((p, i) => `
         <div class="product-card reveal" style="transition-delay: ${(i % 3) * 0.08}s" data-category="${p.category}">
           ${badgeHtml(p.badge)}
-          <div class="product-img-wrap">${p.emoji}</div>
+          <div class="product-img-wrap">
+            <img src="https://cdn.shopify.com/s/files/1/0549/0596/2681/collections/dehydrated-fruit-colour-LBHUKE5.jpg?v=1624900044"/>
+            </div>
           <div class="product-body">
             <div class="product-id">${p.id}</div>
             <h3 class="product-name">${p.name}</h3>
